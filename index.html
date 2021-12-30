@@ -15,8 +15,27 @@
   </head>
   <body>
     <!-- navbar -->
+    <!-- navbar button -->
+    <span class="nav-btn" id="nav-btn">
+      <i class="fas fa-bars"></i>
+    </span>
+    <nav class="navbar" id="navbar">
+      <div class="navbar-header">
+        <span class="nav-close" id="nav-close">
+          <i class="fas fa-times"></i>
+        </span>
+      </div>
+      <ul class="nav-items">
+        <li><a href="#home" class="nav-link">home</a></li>
+        <li><a href="#skills" class="nav-link">skills</a></li>
+        <li><a href="#about" class="nav-link">about</a></li>
+        <li><a href="#products" class="nav-link">products</a></li>
+        <li><a href="#services" class="nav-link">services</a></li>
+        <li><a href="#contact" class="nav-link">contact</a></li>
+      </ul>
+    </nav>
     <!-- header start -->
-    <header class="header">
+    <header class="header" id="home">
       <div class="banner">
         <h2>Over onde flavors of</h2>
         <h1>
@@ -29,7 +48,7 @@
     <!-- header end -->
     <div class="content-divider"></div>
     <!-- skills section start -->
-    <section class="skills clearfix">
+    <section class="skills clearfix" id="skills">
       <!-- single skill start -->
       <article class="skill">
         <span class="skill-icon">
@@ -85,7 +104,7 @@
     <!-- skills section end -->
     <!-- about start -->
     <section>
-      <div class="section-center clearfix">
+      <div class="section-center clearfix" id="about">
         <!-- about img start -->
         <article class="about-img">
           <div class="about-picture-container">
@@ -118,7 +137,7 @@
     </section>
     <!-- about end -->
     <!-- products start -->
-    <section class="products">
+    <section class="products" id="products">
       <div class="section-center clearfix">
         <!-- products info start-->
         <article class="products-info">
@@ -177,7 +196,7 @@
     <!-- products end -->
 
     <!-- services start -->
-    <section class="services">
+    <section class="services" id="services">
       <div class="section-title services-title">
         <h3>explore</h3>
         <h2>our services</h2>
@@ -260,6 +279,108 @@
       </div>
     </section>
     <!-- services end -->
+
+    <!-- contact start -->
+    <section class="contact" id="contact">
+      <div class="section-center clearfix">
+        <!-- contact info -->
+        <article class="contact-info">
+          <!-- contact item -->
+          <div class="contact-item">
+            <h4 class="contact-title">
+              <span class="contact-icon">
+                <i class="fas fa-location-arrow"></i>
+                adress
+              </span>
+            </h4>
+            <h4 class="contact-text">
+              Lorem ipsum dolor sit amet consectetur.
+            </h4>
+          </div>
+          <!-- contact item -->
+          <div class="contact-item">
+            <h4 class="contact-title">
+              <span class="contact-icon">
+                <i class="fas fa-envelope"></i>
+                email
+              </span>
+            </h4>
+            <h4 class="contact-text">email@email.com</h4>
+          </div>
+          <!-- contact item -->
+          <div class="contact-item">
+            <h4 class="contact-title">
+              <span class="contact-icon">
+                <i class="fas fa-phone"></i>
+                Phone
+              </span>
+            </h4>
+            <h4 class="contact-text">+123 456 789</h4>
+          </div>
+        </article>
+        <!-- contact form -->
+        <article class="contact-form">
+          <h3>contact us</h3>
+          <form action="">
+            <div class="form-group">
+              <!-- inputs -->
+              <input
+                type="text"
+                placeholder="name"
+                class="form-control"
+                name="name"
+              />
+              <input
+                type="email"
+                placeholder="email@email.com"
+                class="form-control"
+                name="email"
+              />
+              <textarea
+                name="message"
+                placeholder="message"
+                class="form-control"
+                id=""
+                cols="30"
+                rows="5"
+              ></textarea>
+            </div>
+            <!-- button -->
+            <button type="submit" class="submit-btn btn">submit here</button>
+          </form>
+        </article>
+      </div>
+    </section>
+    <!-- contact end -->
+
+    <!-- footer start -->
+    <footer class="footer">
+      <div class="section-center">
+        <div class="social-icons">
+          <!-- social icon start -->
+          <a href="https://github.com/SamirRodrigues" class="social-icon">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <!-- social icon end -->
+          <!-- social icon start -->
+          <a href="https://github.com/SamirRodrigues" class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <!-- social icon end -->
+          <!-- social icon start -->
+          <a href="https://github.com/SamirRodrigues" class="social-icon">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <!-- social icon end -->
+        </div>
+        <h4 class="footer-text">
+          &copy; <span id="date">2021</span>
+          <span class="company">tea station</span>
+          all rights reserved
+        </h4>
+      </div>
+    </footer>
+    <!-- footer end -->
 
     <script src="app.js"></script>
   </body>
